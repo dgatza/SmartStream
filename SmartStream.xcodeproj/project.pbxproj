@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C67F3D8A195BFD150010DE56 /* SmartStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69D300E195AAC6B00E6BDF3 /* SmartStreamTests.m */; };
 		C69D2FE1195AAC6900E6BDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D2FE0195AAC6900E6BDF3 /* Foundation.framework */; };
 		C69D2FE3195AAC6900E6BDF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D2FE2195AAC6900E6BDF3 /* CoreGraphics.framework */; };
 		C69D2FE5195AAC6900E6BDF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D2FE4195AAC6900E6BDF3 /* UIKit.framework */; };
@@ -21,7 +22,7 @@
 		C69D3004195AAC6B00E6BDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D2FE0195AAC6900E6BDF3 /* Foundation.framework */; };
 		C69D3005195AAC6B00E6BDF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69D2FE4195AAC6900E6BDF3 /* UIKit.framework */; };
 		C69D300D195AAC6B00E6BDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C69D300B195AAC6B00E6BDF3 /* InfoPlist.strings */; };
-		C69D300F195AAC6B00E6BDF3 /* SmartStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69D300E195AAC6B00E6BDF3 /* SmartStreamTests.m */; };
+		C6B24911195C13E700FF0F28 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B24910195C13E700FF0F28 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C69D300A195AAC6B00E6BDF3 /* SmartStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartStreamTests-Info.plist"; sourceTree = "<group>"; };
 		C69D300C195AAC6B00E6BDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C69D300E195AAC6B00E6BDF3 /* SmartStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartStreamTests.m; sourceTree = "<group>"; };
+		C6B24910195C13E700FF0F28 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			files = (
 				C69D2FE3195AAC6900E6BDF3 /* CoreGraphics.framework in Frameworks */,
 				C69D2FE5195AAC6900E6BDF3 /* UIKit.framework in Frameworks */,
+				C6B24911195C13E700FF0F28 /* MediaPlayer.framework in Frameworks */,
 				C69D2FE1195AAC6900E6BDF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +106,7 @@
 		C69D2FDF195AAC6900E6BDF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6B24910195C13E700FF0F28 /* MediaPlayer.framework */,
 				C69D2FE0195AAC6900E6BDF3 /* Foundation.framework */,
 				C69D2FE2195AAC6900E6BDF3 /* CoreGraphics.framework */,
 				C69D2FE4195AAC6900E6BDF3 /* UIKit.framework */,
@@ -202,6 +206,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Manta Innovations, LLC";
 				TargetAttributes = {
+					C69D2FDC195AAC6900E6BDF3 = {
+						DevelopmentTeam = M7747FK2LX;
+					};
 					C69D3000195AAC6B00E6BDF3 = {
 						TestTargetID = C69D2FDC195AAC6900E6BDF3;
 					};
@@ -263,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69D300F195AAC6B00E6BDF3 /* SmartStreamTests.m in Sources */,
+				C67F3D8A195BFD150010DE56 /* SmartStreamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartStream/SmartStream-Prefix.pch";
 				INFOPLIST_FILE = "SmartStream/SmartStream-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +413,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartStream/SmartStream-Prefix.pch";
 				INFOPLIST_FILE = "SmartStream/SmartStream-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +483,7 @@
 				C69D3014195AAC6C00E6BDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69D3015195AAC6C00E6BDF3 /* Build configuration list for PBXNativeTarget "SmartStreamTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +492,7 @@
 				C69D3017195AAC6C00E6BDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

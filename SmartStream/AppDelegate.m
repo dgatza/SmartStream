@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
+@synthesize window = _window;
+@synthesize viewController = _viewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Add the view controller's view to the window and display.
+    [window setRootViewController:viewController];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 							

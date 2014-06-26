@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) MPMoviePlayerController *videoController;
+@property (readwrite) UIInterfaceOrientation viewOrientation;
 
 @end
