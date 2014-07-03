@@ -41,13 +41,13 @@ This player supports the playback of HDS, HLS, IIS Smooth Streaming and MP4 cont
  - Support for Audio codecs - AAC
  - Video Linking Bar
 
-The following are unsupported features for IIS Smooth Streaming:
+###The following are unsupported features for IIS Smooth Streaming:
  - VC-1 and WMA codec
  - Content protection (PlayReady)
  - Text and Sparse Tracks
  - Trickplay (slow motion, fast-forward, and rewind)
 
-###Build Instructions###
+###Build Instructions
  - Download/Clone/Fork the contents of SmartStreamFlash
  - Make edits to SmartStreamPlayerFlash.fla and SmartStreamMain.as as well as MediaHandler.as and MediaDisplayHandler.as within the classes directory.
  - Embed SmartStreamPlayerFlash.swf on a web page or you can export this project as a standalone projector.
