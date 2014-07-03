@@ -4,16 +4,16 @@ SmartStream
 iOS/Flash Video Player Suite for HTTP Adaptive Bitrate Streaming
 
 ##Test Streams##
-###MP4 Test Stream
+MP4 Test Stream
 http://stream.flowplayer.org/big_buck_bunny_with_captions.mp4 (Captions)
 
-###HLS Test Stream
+HLS Test Stream
 http://now.video.nfl.com/i/captiontest/closedcaptiontest_,350k,550k,.mp4.csmil/master.m3u8 (Captions)
 
-###HDS Test Stream
+HDS Test Stream
 http://office.realeyes.com:8134/vod/hds-sample/sample.f4m
 
-###IIS Smooth Streaming Test Stream
+IIS Smooth Streaming Test Stream
 http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/Manifest
 
 
