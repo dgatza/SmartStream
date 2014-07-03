@@ -5,18 +5,18 @@
 **
 **	DESC:			This class allows you to easily add media streaming functionality into any interface.
 **
-**	FILE:			/home/_includes/flash-as3/classes/common/MediaHandler.as
+**	FILE:			/classes/MediaHandler.as
 **
 **	USAGE:			This class adds an additional layer of abstraction by automatically taking care
-**					of processes like incremental initializations, reconnects and state tracking.  Doing this
-**					allows the caller to completely control the initiated process but leaves the lower level
-**					dirty work to this class, removing complexity from the calling class's order of operations.
+**				of processes like incremental initializations, reconnects and state tracking.  Doing this
+**				allows the caller to completely control the initiated process but leaves the lower level
+**				dirty work to this class, removing complexity from the calling class's order of operations.
 **
-**	DEPENDANCIES:	Debug.as
+**	DEPENDANCIES:		Debug.as
 **
 **	AUTHOR(S):		Doug Gatza
 **
-**	VERSION:		1.0.0 (Completed: 03/26/13)
+**	VERSION:		1.0.0
 **
 **
 *************************************************************************************************************/
