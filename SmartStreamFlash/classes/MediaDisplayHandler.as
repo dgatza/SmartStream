@@ -1,3 +1,22 @@
+/*************************************************************************************************************
+**
+**	Media Display Handler Class
+**
+**	DESC:			Creates and maintains a media container and a set of customer media player controls.
+**
+**	FILE:			/classes/MediaHandler.as
+**
+**	USAGE:			This class can be used in any flash video player project that uses Adobe's OSMF.
+**
+**	DEPENDANCIES:		Debug.as
+**
+**	AUTHOR(S):		Doug Gatza
+**
+**	VERSION:		1.0.0
+**
+**
+*************************************************************************************************************/
+
 ﻿package classes  {
 	
 	import org.osmf.containers.MediaContainer;
