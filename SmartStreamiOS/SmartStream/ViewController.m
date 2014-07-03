@@ -690,6 +690,7 @@ BOOL autoPlay = NO;
         [self.playerViewObject updateDurationTextWithSeconds:[self.playerObject getDuration]];
     }
     
+    
     //Logging
     if (logIncrementor < logLimit) {
         logIncrementor++;
