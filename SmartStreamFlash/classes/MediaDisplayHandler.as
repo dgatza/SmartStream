@@ -4,7 +4,7 @@
 **
 **	DESC:			Creates and maintains a media container and a set of customer media player controls.
 **
-**	FILE:			/classes/MediaHandler.as
+**	FILE:			/classes/MediaDisplayHandler.as
 **
 **	USAGE:			This class can be used in any flash video player project that uses Adobe's OSMF.
 **
