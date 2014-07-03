@@ -1,3 +1,24 @@
+/*************************************************************************************************************
+**
+**	SmartStream Main Class
+**
+**	DESC:			The main document class of SmartStream Player and controller class
+**
+**	FILE:			/classes/SmartStreamMain.as
+**
+**	USAGE:			Designed for the SmartStream player project.
+**
+**	DEPENDANCIES:		Debug.as
+**				MediaHandler.as
+**				MediaDisplayHandler.as
+**
+**	AUTHOR(S):		Doug Gatza
+**
+**	VERSION:		1.0.0
+**
+**
+*************************************************************************************************************/
+
 ﻿package classes  {
 	
 	//Flash Classes
