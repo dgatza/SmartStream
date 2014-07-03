@@ -3,15 +3,15 @@
 **
 **	Debug Class
 **
-**	DESC:			This class is simply used for runtime feedback of whatever swf that is being developed or
-**					troubleshooted.
+**	DESC:			This class is simply used for runtime feedback for the calling classes.
 **
-**	FILE:			/home/_includes/flash-as3/classes/videochat/Debug.as
+**	FILE:			/classes/Debug.as
 **
 **	USAGE:			Used when background processes need to be observed directly for development and 
-**					troubleshooting purposes.  Developers are able to specify which level of messages to view.
+**				troubleshooting purposes. Developers are able to specify which level of messages 
+**				to view based on priority and also specify message colors for additional organization.
 **
-**	DEPENDANCIES:	SavedUData
+**	DEPENDANCIES:		None
 **
 **	AUTHOR:			Doug Gatza
 **
