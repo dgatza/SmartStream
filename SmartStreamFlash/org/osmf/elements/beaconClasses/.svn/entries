@@ -1,0 +1,42 @@
+8
+
+dir
+60176
+file:///home/repos/_includes/flash/org/osmf/elements/beaconClasses
+file:///home/repos
+
+
+
+2013-03-05T00:06:08.519999Z
+60176
+html
+
+
+svn:special svn:externals svn:needs-lock
+
+BeaconPlayTrait.as
+file
+
+
+
+
+2013-02-27T19:24:14.000000Z
+84a7bd1a7a77cd3ff4c9d48ad8b27013
+2013-03-05T00:06:08.519999Z
+60176
+html
+has-props
+
+Beacon.as
+file
+
+
+
+
+2013-02-27T19:24:14.000000Z
+5ad468c3f0caf322ea230ab1fa84d828
+2013-03-05T00:06:08.519999Z
+60176
+html
+has-props
+
