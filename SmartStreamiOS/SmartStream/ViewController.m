@@ -61,8 +61,8 @@ BOOL autoPlay = NO;
 //============================================================================================================
 -(void)configurePlayer
 {
-    self.playerObject = [[Player alloc] init]; //[Player sharedInstance];
-    self.playerViewObject = [[PlayerView alloc] initWithFrame:[self getOrientedFrame]]; //[PlayerView sharedInstanceWithFrame:[self getOrientedFrame]];
+    self.playerObject = [[Player alloc] init];
+    self.playerViewObject = [[PlayerView alloc] initWithFrame:[self getOrientedFrame]];
     
     [self loadNewMediaWithURL:self.mediaURL AutoPlay:NO];
     [self.view addSubview: self.playerViewObject];
@@ -688,19 +688,21 @@ BOOL autoPlay = NO;
         
         [self.playerViewObject updatePlayTimeTextWithSeconds:[self.playerObject getCurrentTime]];
         [self.playerViewObject updateDurationTextWithSeconds:[self.playerObject getDuration]];
+    }
+    
+    //Logging
+    if (logIncrementor < logLimit) {
+        logIncrementor++;
+    } else {
+        logIncrementor = 0;
         
-        //Logging
-        if (logIncrementor < logLimit) {
-            logIncrementor++;
-        } else {
-            logIncrementor = 0;
-            
-            [self logStats];
-        }
+        [self logStats];
     }
 }
 
 
+// Logs stats about the stream and bitrate
+//============================================================================================================
 -(void)logStats
 {
     NSLog(@"%@", [self getGraphEntryWithMin: ([self.playerObject getObservedMinBitrate] / 100000) Current:([self.playerObject getObservedBitrate] / 100000) Max:([self.playerObject getObservedMaxBitrate] / 100000)]);
