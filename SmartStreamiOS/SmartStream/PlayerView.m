@@ -134,6 +134,7 @@ CGRect volumeBarDragRect;
     controlsContainerWidth += self.buttonPlay.frame.size.width;
     
     [self.playerControlsContainer addSubview:self.buttonPlay];
+    [self.buttonPlay setAutoresizingMask:UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin];
     
     
     //Pause Button
