@@ -1,4 +1,4 @@
-![alt text](http://www.mantainnovations.com/SmartStreamLogo152.png "SmartStream")
+![alt text](http://www.mantainnovations.com/SmartStreamLogo200Trimmed.png "SmartStream")
 SmartStream
 ===========
 
