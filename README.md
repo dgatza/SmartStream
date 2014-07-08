@@ -5,13 +5,13 @@ SmartStream
 iOS/Flash Video Player Suite for HTTP Adaptive Bitrate Streaming
 
 
-##Working Example##
+###Working Example
 Here is an example of SmartStream Flash player in action.  You can link to any of the test streams listed below using the link bar at the top of the player.
 
 http://www.mantainnovations.com/SmartStreamPlayerFlash.swf
 
 
-##Test Streams##
+###Test Streams
 MP4 Test Stream
 
 http://stream.flowplayer.org/big_buck_bunny_with_captions.mp4 (Captions)
