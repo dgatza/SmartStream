@@ -1,7 +1,9 @@
-SmartStream ![alt text](http://www.mantainnovations.com/SmartStreamLogo152.png "SmartStream")
+SmartStream
 ===========
 
 iOS/Flash Video Player Suite for HTTP Adaptive Bitrate Streaming
+
+![alt text](http://www.mantainnovations.com/SmartStreamLogo152.png "SmartStream")
 
 
 ##Working Example##
