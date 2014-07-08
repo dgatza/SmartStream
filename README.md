@@ -3,6 +3,13 @@ SmartStream
 
 iOS/Flash Video Player Suite for HTTP Adaptive Bitrate Streaming
 
+
+##Working Example##
+Here is an example of SmartStream Flash player in action.  You can link to any of the test streams listed below using the link bar at the top of the player.
+
+http://www.mantainnovations.com/SmartStreamPlayerFlash.swf
+
+
 ##Test Streams##
 MP4 Test Stream
 http://stream.flowplayer.org/big_buck_bunny_with_captions.mp4 (Captions)
@@ -32,6 +39,7 @@ This player supports the playback of HLS and MP4 content with the following feat
  - Open SmartStream.xcodeproj in XCode
  - Compile the player for iPad or iPhone
  - Use the in-player link bar to run other streams
+
 
 ##SmartStream Flash
 This player supports the playback of HDS, HLS, IIS Smooth Streaming and MP4 content with the following features:
