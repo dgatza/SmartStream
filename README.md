@@ -28,7 +28,7 @@ IIS Smooth Streaming Test Stream
 http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/Manifest
 
 
-## SmartStream iOS##
+## SmartStream iOS
 This player supports the playback of HLS and MP4 content with the following features:
  - Adaptive Bitrate Streaming
  - Closed Caption support
@@ -38,7 +38,7 @@ This player supports the playback of HLS and MP4 content with the following feat
  - Support for Audio codecs - AAC
  - Video Linking Bar
 
-### Build Instructions###
+### Build Instructions
  - Download/Clone/Fork the contents of SmartStreamiOS
  - Open SmartStream.xcodeproj in XCode
  - Compile the player for iPad or iPhone
